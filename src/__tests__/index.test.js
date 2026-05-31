@@ -1,4 +1,4 @@
-import getHealthStatus from "..";
+import getHealthStatus from "../index.js";
 
 describe("getHealthStatus", () => {
     it("выводит 'healthy', если health > 50", () => {
